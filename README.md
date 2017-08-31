@@ -7,5 +7,11 @@ This is just for study pourpouse, but you can share your opinion about it, oh bt
 mind any mistakes here xD
 
 ## Libs Used:
-* [IR-SLINGER:](https://github.com/bschwind/ir-slinger)
-* [LibPiGPIO:](https://github.com/joan2937/pigpio.git)
+* [IR-SLINGER](https://github.com/bschwind/ir-slinger)
+* [LibPiGPIO](https://github.com/joan2937/pigpio.git)
+
+### Usage:
+`gcc main.c -lm -lpigpio -pthread -lrt -o huemoteController`
+`./huemoteController <command_wave>`
+`// Example`
+`./huemoteController 3 //Don't forget to configure your waves in [controlWaves.h](https://github.com/roarena/HuemoteControl/blob/master/libs/controlWaves.h)`
