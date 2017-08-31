@@ -7,5 +7,5 @@ This is just for study pourpouse, but you can share your opinion about it, oh bt
 mind any mistakes here xD
 
 ## Libs Used:
-* **[IR-SLINGER:]**(ttps://github.com/bschwind/ir-slinger)
-* **[LibPiGPIO:]**(https://github.com/joan2937/pigpio.git)
+* [IR-SLINGER:](https://github.com/bschwind/ir-slinger)
+* [LibPiGPIO:](https://github.com/joan2937/pigpio.git)
