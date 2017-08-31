@@ -14,7 +14,7 @@ mind any mistakes here xD
 
 ## Usage:
 ````
-gcc main.c -lm -lpigpio -pthread -lrt -o huemoteController
-./huemoteController <command_wave>
+sudo gcc main.c -lm -lpigpio -pthread -lrt -o huemoteController
+sudo ./huemoteController <command_wave>
 //Example
-./huemoteController 3 //Don't forget to configure your waves in controlWaves.h.
+sudo ./huemoteController 3 //Don't forget to configure your waves in controlWaves.h.
